@@ -1,0 +1,1 @@
+beefy foos.coffee:app.js --live -- -t coffeeify -t sassify

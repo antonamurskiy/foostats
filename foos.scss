@@ -1,0 +1,63 @@
+* {
+  -webkit-font-smoothing:antialiased;
+  font-smoothing: antialiased;
+  font: "ProximaNova-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+  background: url(http://i.imgur.com/lnpSMru.jpg) center;
+  background-size: 2000px;
+}
+
+.players {
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.1);
+  width: 600px;
+  position: relative;
+  .controls {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    left: 0px;
+    div {
+      float: left;
+      width: 50%;
+      padding: 12px;
+      text-align: center;
+      font: 26px/28px "ProximaNova-Bold", sans-serif;
+      color: white;
+    }
+    div:hover {
+      cursor: pointer;
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+  }
+  .percentage {
+    text-align: center;
+    font: 20px/28px "ProximaNova-Bold", sans-serif;
+    color: white;
+    opacity: 0.7;
+    margin-top: 12px;
+  }
+  .player {
+    opacity: 1;
+    background: #b5b5b5;
+    width: 140px;
+    float: left;
+    min-height: 20px;
+    position: relative;
+    .stats {
+      .stat {
+        text-align: center;
+        color: white;
+        font: 12px/24px "ProximaNova", sans-serif;
+      }
+    }
+    .name {
+      text-align: center;
+      font: 26px/28px "ProximaNova-Bold", sans-serif;
+      color: white;
+      font-weight: bold;
+    }
+  }
+}
